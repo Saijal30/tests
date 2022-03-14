@@ -57,7 +57,7 @@ const handle1_data= function(original_data){
     haze.innerHTML = "Humidity feels like "+original_data.main.humidity+" %";
     wind.innerHTML = "Wind is flowing at "+original_data.wind.speed+" m/s"
 
-    icon.src="http://openweathermap.org/img/wn/"+original_data.weather[0].icon+"@2x.png";
+    icon.src="https://openweathermap.org/img/wn/"+original_data.weather[0].icon+"@2x.png";
     name_city.style.color="#7e437a";
     name_city.style.fontFamily="cursive";
     name_city.style.fontSize="70px";
