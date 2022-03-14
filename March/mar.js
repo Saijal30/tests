@@ -43,7 +43,7 @@ const handle_data= function(original_data){
 }
 
 const show_data = function(){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inputtext.value}&units=metric&appid=${API}`).then(convert_fn).then(handle_data);
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputtext.value}&units=metric&appid=${API}`).then(convert_fn).then(handle_data);
 
 }
 
@@ -76,7 +76,7 @@ const handle1_data= function(original_data){
 
 
 }
-fetch(`http://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=${API}`).then(convert_fn).then(handle1_data);
+fetch(`https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=${API}`).then(convert_fn).then(handle1_data);
 
 /*............ */
 
