@@ -24,18 +24,18 @@ const handle_data= function(original_data){
     icon.src="http://openweathermap.org/img/wn/"+original_data.weather[0].icon+"@2x.png";
     name_city.style.color="#7e437a";
     name_city.style.fontFamily="cursive";
-    name_city.style.fontSize="70px";
+    name_city.style.fontSize="9vh";
     temp.style.color="#7e437a";
-    temp.style.fontSize = "35px";
+    temp.style.fontSize = "4vh";
     temp.style.fontStyle = "italic";
     haze.style.color="#7e437a";
-    haze.style.fontSize = "32px";
+    haze.style.fontSize = "4vh";
     haze.style.fontStyle = "italic";
     description.style.color="#7e437a";
-    description.style.fontSize = "32px";
+    description.style.fontSize = "4vh";
     description.style.fontStyle = "italic";
     wind.style.color="#7e437a";
-    wind.style.fontSize = "32px";
+    wind.style.fontSize = "4vh";
     wind.style.fontStyle = "italic";
 
 
@@ -60,18 +60,18 @@ const handle1_data= function(original_data){
     icon.src="https://openweathermap.org/img/wn/"+original_data.weather[0].icon+"@2x.png";
     name_city.style.color="#7e437a";
     name_city.style.fontFamily="cursive";
-    name_city.style.fontSize="70px";
+    name_city.style.fontSize="9vh";
     temp.style.color="#7e437a";
-    temp.style.fontSize = "35px";
+    temp.style.fontSize = "4vh";
     temp.style.fontStyle = "italic";
     haze.style.color="#7e437a";
-    haze.style.fontSize = "32px";
+    haze.style.fontSize = "4vh";
     haze.style.fontStyle = "italic";
     description.style.color="#7e437a";
-    description.style.fontSize = "32px";
+    description.style.fontSize = "4vh";
     description.style.fontStyle = "italic";
     wind.style.color="#7e437a";
-    wind.style.fontSize = "32px";
+    wind.style.fontSize = "4vh";
     wind.style.fontStyle = "italic";
 
 
