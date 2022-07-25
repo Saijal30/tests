@@ -1,0 +1,54 @@
+
+body{
+    margin: 0px;
+}
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  nav {
+    height: 3.5rem;
+    background-color: #CAF0F8;
+    padding: 0.25rem 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  nav > h1 {
+    display: inline;
+  }
+  
+  nav > button {
+    justify-self: flex-end;
+  }
+  
+   nav > div {
+     align-items: center;
+   }
+  
+  .logo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .anchor_btn:hover {
+    background-color: grey;
+    color: white;
+  }
+  .anchor_btn {
+    border: 1px solid gray;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.20s all; 
+    color: black;
+    background-color: beige;
+   }
+   section{
+    margin: 2rem;
+    
+   }
+   th{
+    padding: 1rem 1.5rem;
+    color: rgb(21, 115, 115);
+   }
